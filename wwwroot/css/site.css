@@ -1,0 +1,114 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: #d8dadc;
+}
+.top-right-button {
+    position: absolute;
+    top: 90px;
+    right: 210px;
+    background: #58bf7c;
+    color: #f8f9fa;
+    border: none;
+    padding:7px;
+}
+.bottom-left-button {
+    position: absolute;
+    background: #5ac1ee;
+    border: none;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 0;
+    top: auto;
+    left: 150px;
+    bottom: 85px;
+}
+.container-fluid {
+    background: #25a0b7;
+    color: #f8f9fa;
+    padding: 20px;
+}
+.navbar-brand {
+    background: #25a0b7;
+    color: #f8f9fa;
+    border: none;
+   
+}
+.nav-link {
+    color: #f8f9fa;
+}
+.navbar-brand{
+    font-size:20px;
+    text-shadow:2px 1px 4px #111010;
+   
+}
+.table{
+    margin-top:10px;
+}
+.btn-save {
+    background: #58bf7c;
+    color: white;
+    border: none;
+    border-radius: 0;
+    margin: 40px 0px 0px 140px;
+    padding: 9px 10px;
+}
+.btn-add {
+    border-radius: 0;
+    border:none;
+    margin: 20px 10px 10px 150px;
+    padding: 9px 10px;
+    background: #58bf7c;
+    color: white;
+}
+.edit-btn {
+    border-radius: 0;
+    border: none;
+    margin: 170px 10px 10px 150px;
+    padding: 9px 10px;
+    background: #ea904f;
+    color: white;
+}
+.btn-delete {
+    border-radius: 0;
+    border: none;
+    margin: 170px 10px 10px 150px;
+    padding: 9px 10px;
+    background: #ca3a2e;
+    color: white;
+}
+.small-edit-btn{
+    border:none;
+    background:#ea904f;
+    color:white;
+}
+.small-details-btn {
+    border: none;
+    background: #579ae2;
+    color: white;
+}
+.small-delete-btn {
+    border: none;
+    background: #ca3a2e;
+    color: white;
+}
+
+
